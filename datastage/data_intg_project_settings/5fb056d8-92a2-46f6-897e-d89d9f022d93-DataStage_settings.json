@@ -1,0 +1,63 @@
+{
+  "project" : {
+    "jobNameSuffix" : ".DataStage job",
+    "runEnvironmentId" : "0bb71f9f-828e-4df4-b1c0-ff7422d5ad4d",
+    "runPriorityQueue" : "Medium",
+    "runRemoteEngineEnforcement" : false,
+    "testDataProperties" : {
+      "testCaseJobNameSuffix" : ".DataStageTestCase Job",
+      "testDataConnectionType" : ""
+    },
+    "saveFrequency" : "save_changes_automatically",
+    "formatTimeString" : "%hh:%nn:%ss",
+    "flowLimits" : {
+      "warnLimit" : 100
+    },
+    "testDataConnectionId" : "",
+    "nlsCollate" : "OFF",
+    "disableParamsRefreshCache" : false,
+    "runMessageHandlerId" : "",
+    "formatDecimalSeparator" : ".",
+    "testDataBasePath" : "",
+    "allowDuplicate" : false,
+    "sequenceNameSuffix" : ".DataStage sequence",
+    "defineParameters" : false,
+    "optimizedSequenceNameSuffix" : ".DataStage sequence job",
+    "runArtifactRetention" : {
+      "enabled" : false
+    },
+    "aiFeatures" : {
+      "enableDSAssistant" : false
+    },
+    "gitIntegration" : {
+      "enableGit" : true,
+      "gitProvider" : "git",
+      "gitFolder" : "datastage",
+      "gitToken" : "{dsnextenc}Fpuqq4fjq+7DbdaRShLOXoo4EU3y9z7lvZHoiHphfI0jcZQdlflokDglvt90Vo3p",
+      "gitOwner" : "",
+      "gitURL" : "https://github.com/dbns97/stabledev1-DrewTest3.git",
+      "gitBranch" : "main"
+    },
+    "thresholdLimits" : { },
+    "runEnvironmentIds" : [ "0bb71f9f-828e-4df4-b1c0-ff7422d5ad4d" ],
+    "formatDateString" : "%yyyy-%mm-%dd",
+    "flowAcpControl" : true,
+    "metricsRepository" : {
+      "enableMetrics" : false,
+      "metricsRetention" : {
+        "enabled" : false
+      },
+      "connection" : {
+        "datasource_type" : "e1c23729-99d8-4407-b3df-336e33ffdc82",
+        "properties" : {
+          "query_timeout" : "300",
+          "retry_limit" : "2"
+        }
+      },
+      "enableAdvancedFind" : false
+    },
+    "nlsMap" : "UTF-8",
+    "formatTimestampString" : "%yyyy-%mm-%dd %hh:%nn:%ss",
+    "runEnvironmentNames" : [ "default_datastage_px" ]
+  }
+}
