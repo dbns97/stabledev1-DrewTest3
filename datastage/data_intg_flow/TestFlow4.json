@@ -200,6 +200,26 @@
         "type_code" : "STRING"
       },
       "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 100,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "max_length" : 100,
+        "is_signed" : true
+      },
+      "nullable" : false,
+      "name" : "COLUMN_2",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "CHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
     } ]
   } ],
   "doc_type" : "pipeline",
