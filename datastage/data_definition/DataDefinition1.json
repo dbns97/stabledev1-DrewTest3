@@ -1,0 +1,192 @@
+{
+  "metadata" : {
+    "name" : "DataDefinition1",
+    "asset_type" : "data_definition",
+    "description" : ""
+  },
+  "entity" : {
+    "data_asset" : {
+      "mime_type" : "application/json",
+      "dataset" : true,
+      "columns" : [ {
+        "name" : "COLUMN_1",
+        "type" : {
+          "nullable" : false,
+          "length" : 100,
+          "scale" : 0,
+          "signed" : true,
+          "type" : "CHAR"
+        },
+        "properties" : {
+          "extended_precision" : 0,
+          "charset" : "",
+          "link_keep" : false,
+          "tagged_subrec" : 0,
+          "APTFieldProperties" : " ",
+          "ds_data_type" : "WSMQ.QUEUENAME",
+          "prefix" : 0,
+          "padchar" : "",
+          "description" : " ",
+          "Maps from input column" : "",
+          "skip" : "",
+          "alphabet" : "",
+          "occurs_varying" : 0,
+          "cycle" : "",
+          "extended" : "",
+          "pad_char" : "",
+          "max_width" : 0,
+          "default" : "",
+          "data_element" : "null",
+          "quote" : "",
+          "sign_option" : 0,
+          "display_size" : 0,
+          "generate" : false,
+          "delim" : "",
+          "sqltype" : 1,
+          "key_position" : 1,
+          "field_pos" : 1,
+          "primary_key" : false,
+          "ds_sync_indicator" : 0,
+          "delim_string" : "",
+          "MisFieldProperties" : " ",
+          "time_scale" : 0,
+          "ds_scd_purpose" : 0,
+          "tagcase" : 0,
+          "width" : 0,
+          "position" : 0,
+          "export_ebcdic_as_ascii" : false
+        }
+      }, {
+        "name" : "COLUMN_2",
+        "type" : {
+          "nullable" : false,
+          "length" : 100,
+          "scale" : 0,
+          "signed" : true,
+          "type" : "CHAR"
+        },
+        "properties" : {
+          "extended_precision" : 0,
+          "charset" : "",
+          "link_keep" : false,
+          "tagged_subrec" : 0,
+          "APTFieldProperties" : " ",
+          "ds_data_type" : "WSMQ.QUEUENAME",
+          "prefix" : 0,
+          "padchar" : "",
+          "description" : " ",
+          "Maps from input column" : "",
+          "skip" : "",
+          "alphabet" : "",
+          "occurs_varying" : 0,
+          "cycle" : "",
+          "extended" : "",
+          "pad_char" : "",
+          "max_width" : 0,
+          "default" : "",
+          "data_element" : "null",
+          "quote" : "",
+          "sign_option" : 0,
+          "display_size" : 0,
+          "generate" : false,
+          "delim" : "",
+          "sqltype" : 1,
+          "key_position" : 1,
+          "field_pos" : 1,
+          "primary_key" : false,
+          "ds_sync_indicator" : 0,
+          "delim_string" : "",
+          "MisFieldProperties" : " ",
+          "time_scale" : 0,
+          "ds_scd_purpose" : 0,
+          "tagcase" : 0,
+          "width" : 0,
+          "position" : 0,
+          "export_ebcdic_as_ascii" : false
+        }
+      }, {
+        "name" : "COLUMN_3",
+        "type" : {
+          "nullable" : false,
+          "length" : 100,
+          "scale" : 0,
+          "signed" : true,
+          "type" : "CHAR"
+        },
+        "properties" : {
+          "extended_precision" : 0,
+          "charset" : "",
+          "link_keep" : false,
+          "tagged_subrec" : 0,
+          "APTFieldProperties" : " ",
+          "ds_data_type" : "WSMQ.QUEUENAME",
+          "prefix" : 0,
+          "padchar" : "",
+          "description" : " ",
+          "Maps from input column" : "",
+          "skip" : "",
+          "alphabet" : "",
+          "occurs_varying" : 0,
+          "cycle" : "",
+          "extended" : "",
+          "pad_char" : "",
+          "max_width" : 0,
+          "default" : "",
+          "data_element" : "null",
+          "quote" : "",
+          "sign_option" : 0,
+          "display_size" : 0,
+          "generate" : false,
+          "delim" : "",
+          "sqltype" : 1,
+          "key_position" : 1,
+          "field_pos" : 1,
+          "primary_key" : false,
+          "ds_sync_indicator" : 0,
+          "delim_string" : "",
+          "MisFieldProperties" : " ",
+          "time_scale" : 0,
+          "ds_scd_purpose" : 0,
+          "tagcase" : 0,
+          "width" : 0,
+          "position" : 0,
+          "export_ebcdic_as_ascii" : false
+        }
+      } ],
+      "additionalProperties" : { }
+    },
+    "column_info" : { },
+    "data_definition" : { },
+    "ds_info" : {
+      "data_types" : [ ],
+      "record_level" : {
+        "final_delim" : "end",
+        "intact" : { }
+      },
+      "field_defaults" : {
+        "quote" : "double",
+        "print_field" : false,
+        "delim" : ","
+      },
+      "type_defaults" : {
+        "general" : { },
+        "string" : {
+          "import_ascii_as_ebcdic" : false,
+          "export_ebcdic_as_ascii" : false
+        },
+        "decimal" : {
+          "packed_signed" : false,
+          "packed_check" : false
+        },
+        "numeric" : { },
+        "date" : {
+          "julian" : false
+        },
+        "time" : {
+          "midnight_seconds" : false
+        },
+        "timestamp" : { }
+      }
+    }
+  }
+}

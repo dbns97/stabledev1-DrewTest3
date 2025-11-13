@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "Extract.DataStage job",
+    "asset_id" : "5d49d8ae-4a5e-49be-85e8-7641212b4e03",
+    "owner_id" : "1000330999",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "e21f4864-0399-4723-9a92-efe739367ae3",
+      "schedule_id" : "",
+      "project_name" : "DrewTest3",
+      "configuration" : {
+        "env_type" : "",
+        "flow_limits" : {
+          "warn_limit" : 100
+        },
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "Extract"
+    }
+  }
+}

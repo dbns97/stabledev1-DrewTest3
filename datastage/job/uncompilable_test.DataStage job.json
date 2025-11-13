@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "uncompilable_test.DataStage job",
+    "asset_id" : "c95a31c7-e705-4240-9236-32d81f289a06",
+    "owner_id" : "1000330999",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "9113728e-faf2-4f03-84c0-3968fee6849f",
+      "schedule_id" : "",
+      "project_name" : "DrewTest3",
+      "configuration" : {
+        "env_type" : "",
+        "flow_limits" : {
+          "warn_limit" : "100"
+        },
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "uncompilable_test"
+    }
+  }
+}

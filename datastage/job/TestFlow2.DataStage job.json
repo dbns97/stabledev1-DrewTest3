@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "TestFlow2.DataStage job",
+    "asset_id" : "ade3d221-55c0-46b8-9aa2-a077e5444a2d",
+    "owner_id" : "1000330999",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "b6f2a40c-e481-43f3-89b7-facbab1402c7",
+      "schedule_id" : "",
+      "project_name" : "DrewTest3",
+      "configuration" : {
+        "env_type" : "",
+        "flow_limits" : {
+          "warn_limit" : "100"
+        },
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "TestFlow2"
+    }
+  }
+}

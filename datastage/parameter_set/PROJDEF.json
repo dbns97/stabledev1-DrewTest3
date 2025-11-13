@@ -1,0 +1,415 @@
+{
+  "parameter_set" : {
+    "name" : "PROJDEF",
+    "description" : "DataStage project environment variables",
+    "parameters" : [ {
+      "name" : "$OWS_DBCONNECTION",
+      "description" : "",
+      "prompt" : "OWS DB Connection",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_SRC_DBCONNECTION",
+      "description" : "",
+      "prompt" : "CS Source DB Connection",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_SRC_DBTYPE",
+      "description" : "",
+      "prompt" : "CS Source DB Type",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_SRC_USERNAME",
+      "description" : "",
+      "prompt" : "CS Source User name",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_TZ",
+      "description" : "",
+      "prompt" : "MDW Transaction Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_IPC_TIMEOUT",
+      "description" : "",
+      "prompt" : "MDW IPC Time Out",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_SRC_SCHEMA",
+      "description" : "",
+      "prompt" : "CS Source Schema",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SCD_TYPE",
+      "description" : "",
+      "prompt" : "Slowly Changing Dimension Type",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_LOAD_TYPE",
+      "description" : "",
+      "prompt" : "CS Datamart Load Type",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$ERR_THRESHOLD",
+      "description" : "",
+      "prompt" : "Error Threshold",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_AS",
+      "description" : "",
+      "prompt" : "OWS Array Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SNP_HASHED_FILE_DIRECTORY",
+      "description" : "",
+      "prompt" : "Snapshot Hashed File Directory",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SNP_DG_EXEC_FLG",
+      "description" : "",
+      "prompt" : "Degree SNP Execution Flag : (Y/N)",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SID_UNIQUENESS",
+      "description" : "",
+      "prompt" : "Surrogate Key Uniqueness",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_ACN_RSN_CODES",
+      "description" : "",
+      "prompt" : "Enter the Actions and Action Reason Code(concatenated)",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_PASSWORD",
+      "description" : "",
+      "prompt" : "OWS Password",
+      "type" : "encrypted",
+      "value" : ""
+    }, {
+      "name" : "$DATA_ORIGIN",
+      "description" : "",
+      "prompt" : "Data Origin",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_IPC_BUF_SIZE",
+      "description" : "",
+      "prompt" : "CS IPC Buffer Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_IPC_BUF_SIZE",
+      "description" : "",
+      "prompt" : "OWS IPC Buffer Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_IPC_TIMEOUT",
+      "description" : "",
+      "prompt" : "OWS IPC Time Out",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_PASSWORD",
+      "description" : "",
+      "prompt" : "MDW Password",
+      "type" : "encrypted",
+      "value" : ""
+    }, {
+      "name" : "$MDW_SCHEMA",
+      "description" : "",
+      "prompt" : "MDW Schema ID",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_TZ",
+      "description" : "",
+      "prompt" : "OWS Transaction Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$ERR_VALIDATE",
+      "description" : "",
+      "prompt" : "Error Validation (Y/N)",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_ACAD_CAR_LST",
+      "description" : "",
+      "prompt" : "Enter the Academic Career List",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SNP_AD_EXEC_FLG",
+      "description" : "",
+      "prompt" : "Admission SNP Execution Flag : (Y/N)",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_DBCONNECTION",
+      "description" : "",
+      "prompt" : "MDW DB Connection",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$DLY_HASHED_FILE_DIRECTORY",
+      "description" : "",
+      "prompt" : "Daily Hashed File Directory",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_SCHEMA",
+      "description" : "",
+      "prompt" : "OWS Schema ID",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$PARAM_FILE_DIR",
+      "description" : "",
+      "prompt" : "Parameter File Directory",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_IPC_BUF_SIZE",
+      "description" : "",
+      "prompt" : "MDW IPC Buffer Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_SRC_SYS_ID",
+      "description" : "",
+      "prompt" : "CS Source System Identifier",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_DBTYPE",
+      "description" : "",
+      "prompt" : "OWS DB Type",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_DBTYPE",
+      "description" : "",
+      "prompt" : "MDW DB Type",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_PT_IND",
+      "description" : "",
+      "prompt" : "Enter the Academic Loads which are considered as Part-Time",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWS_USERNAME",
+      "description" : "",
+      "prompt" : "OWS Username",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SNP_DATA_FILE_DIRECTORY",
+      "description" : "",
+      "prompt" : "Snapshot Data File Directory",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_FT_IND",
+      "description" : "",
+      "prompt" : "Enter the Academic Loads which are considered as Full-Time",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_AS",
+      "description" : "",
+      "prompt" : "CS Source Array Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_AS",
+      "description" : "",
+      "prompt" : "MDW Array Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$MDW_USERNAME",
+      "description" : "",
+      "prompt" : "MDW Username",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_IPC_TIMEOUT",
+      "description" : "",
+      "prompt" : "CS IPC Time Out",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SNP_SR_EXEC_FLG",
+      "description" : "",
+      "prompt" : "Student SNP Execution Flag : (N/Y)",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWE_IPC_TIMEOUT",
+      "description" : "",
+      "prompt" : "OWE IPC Time Out",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWE_DBCONNECTION",
+      "description" : "",
+      "prompt" : "OWE DB Connection",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$LDB_CO_ENRL_STATUS_GRADUATED_ENROLLED",
+      "description" : "",
+      "prompt" : "LDB Cohort Status - Graduated Still Enrolled",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_SRC_PASSWORD",
+      "description" : "",
+      "prompt" : "CS Source Password",
+      "type" : "encrypted",
+      "value" : ""
+    }, {
+      "name" : "$LDB_CO_ENRL_STATUS_GRADUATED_NOTENROLLED",
+      "description" : "",
+      "prompt" : "LDB Cohort Status - Graduated Not Enrolled",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$LDB_CO_ENRL_STATUS_NOTENROLLED",
+      "description" : "",
+      "prompt" : "LDB Cohort Status - Not Enrolled",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$LDB_CO_ENRL_STATUS_ACADEMIC_DISMISSAL",
+      "description" : "",
+      "prompt" : "LDB Cohort Status - Academic Dismissal",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$LDB_CO_ENRL_STATUS_GRADUATED",
+      "description" : "",
+      "prompt" : "LDB Cohort Status - Graduated",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWE_SCHEMA",
+      "description" : "",
+      "prompt" : "OWE Schema ID",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_TZ",
+      "description" : "",
+      "prompt" : "CS Transaction Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWE_TZ",
+      "description" : "",
+      "prompt" : "OWE Transaction Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$LDB_CO_ENRL_STATUS_ENROLLED",
+      "description" : "",
+      "prompt" : "LDB Cohort Status - Enrolled",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWE_AS",
+      "description" : "",
+      "prompt" : "OWE Array Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWE_IPC_BUF_SIZE",
+      "description" : "",
+      "prompt" : "OWE IPC Buffer Size",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$OWE_USERNAME",
+      "description" : "",
+      "prompt" : "OWE Username",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$APT_CONFIG_FILE",
+      "description" : "The Parallel job configuration file.",
+      "prompt" : "Configuration file",
+      "type" : "path",
+      "value" : ""
+    }, {
+      "name" : "$OWE_DBTYPE",
+      "description" : "",
+      "prompt" : "OWE DB Type",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$HASHED_FILE_DIRECTORY",
+      "description" : "",
+      "prompt" : "Hashed File Directory Path",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_TRANZ_DT",
+      "description" : "",
+      "prompt" : "CS Transaction Date",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_TO_DATE",
+      "description" : "",
+      "prompt" : "Enter end date for snapshot",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$CS_FROM_DATE",
+      "description" : "",
+      "prompt" : "Enter begin date for snapshot",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SNP_ARCHIVE_DIRECTORY",
+      "description" : "",
+      "prompt" : "Snapshot Archive Directory",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SENDERS_EMAIL_ADDRESS",
+      "description" : "",
+      "prompt" : "Senders Email Address",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$EMAIL_INFO_LIST",
+      "description" : "",
+      "prompt" : "Email Information List",
+      "type" : "string",
+      "value" : ""
+    }, {
+      "name" : "$SMTP_MAIL_SERVER",
+      "description" : "",
+      "prompt" : "SMTP Mail Server",
+      "type" : "string",
+      "value" : ""
+    } ]
+  }
+}

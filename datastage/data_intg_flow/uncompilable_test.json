@@ -1,0 +1,93 @@
+{
+  "primary_pipeline" : "9d60aad2-eec1-42f5-8e68-57b90f64724c",
+  "pipelines" : [ {
+    "nodes" : [ {
+      "outputs" : [ {
+        "id" : "5a0f86bb-2a58-4bc2-87f2-f037e1ef0ad3",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "37cef0db-d746-4570-9133-ba5c4957b9f9"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 2
+            }
+          }
+        },
+        "parameters" : {
+          "final_delim" : "end",
+          "rejects" : "continue",
+          "quote" : "double",
+          "selection" : "file",
+          "firstLineColumnNames" : " ",
+          "keepPartitions" : " ",
+          "reportProgress" : "yes",
+          "delim" : "','"
+        }
+      } ],
+      "op" : "PxSequentialFile",
+      "id" : "95d035c6-8eff-4c90-99b5-e72475cff84d",
+      "type" : "binding",
+      "app_data" : {
+        "datastage" : { },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxSequentialFile.svg",
+          "x_pos" : 288.0,
+          "label" : "Sequential_File_0",
+          "y_pos" : 168.0
+        }
+      },
+      "parameters" : {
+        "output_count" : 1,
+        "input_count" : 0,
+        "allow_column_mapping" : false
+      }
+    } ],
+    "id" : "9d60aad2-eec1-42f5-8e68-57b90f64724c",
+    "app_data" : {
+      "datastage" : {
+        "runtime_column_propagation" : "false"
+      },
+      "ui_data" : {
+        "comments" : [ ],
+        "detached_links" : [ {
+          "src_node_id" : "95d035c6-8eff-4c90-99b5-e72475cff84d",
+          "src_node_port_id" : "5a0f86bb-2a58-4bc2-87f2-f037e1ef0ad3",
+          "type_attr" : "PRIMARY",
+          "id" : "37cef0db-d746-4570-9133-ba5c4957b9f9",
+          "link_name" : "DSLink2",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ ]
+            }
+          },
+          "trg_pos" : {
+            "x_pos" : 484.0,
+            "y_pos" : 185.0
+          }
+        } ]
+      }
+    },
+    "runtime_ref" : "pxOsh"
+  } ],
+  "runtimes" : [ {
+    "name" : "pxOsh",
+    "id" : "pxOsh"
+  } ],
+  "json_schema" : "https://api.dataplatform.ibm.com/schemas/common-pipeline/pipeline-flow/pipeline-flow-v3-schema.json",
+  "schemas" : [ ],
+  "doc_type" : "pipeline",
+  "id" : "a2e7bc50-f34e-4077-96a6-7e237392a862",
+  "app_data" : {
+    "datastage" : {
+      "version" : "3.0.5"
+    },
+    "additionalProperties" : {
+      "saveChangeFrequency" : "apply_changes_temporarily"
+    }
+  },
+  "version" : "3.0"
+}

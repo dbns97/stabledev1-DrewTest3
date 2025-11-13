@@ -1,0 +1,20 @@
+{
+  "parameter_set" : {
+    "name" : "TestParamSet",
+    "description" : "",
+    "parameters" : [ {
+      "name" : "Param1",
+      "description" : "",
+      "prompt" : "",
+      "type" : "string",
+      "value" : "value1"
+    }, {
+      "name" : "Param3",
+      "description" : "",
+      "prompt" : "",
+      "type" : "string",
+      "value" : "3"
+    } ],
+    "value_sets" : [ ]
+  }
+}

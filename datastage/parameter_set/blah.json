@@ -1,0 +1,14 @@
+{
+  "parameter_set" : {
+    "name" : "blah",
+    "description" : "",
+    "parameters" : [ {
+      "name" : "foo",
+      "description" : "",
+      "prompt" : "",
+      "type" : "encrypted",
+      "value" : ""
+    } ],
+    "value_sets" : [ ]
+  }
+}
